@@ -25,14 +25,14 @@
 - 查看当前工作目录树状态 可以查看文件变化
 >git status
 ### 理解并使用分支
-- ***创建可选历史纪录*** 单纯commit不能会调版本
+- ***创建可选历史纪录*** 单纯commit不能回调版本
     1. 支持不同发布版本的分支
     2. 用来支持一个特定功能的开发的分支（Topic Branch）  
        为要发布的代码保留一份拷贝
     3. 新分支基于父分支
 - 创建分支
 >git branch new_branch_name  patent_branch_name
->git branch RB_1.0(realse branck) master
+>git branch RB_1.0(realse branch) master
 >给标签“打补丁”在标签处添加分支
 >git branch new_branch_name tag_name
 - 删除分支
@@ -52,6 +52,7 @@
 - 在需要合并的分支上使用
 >当前分支>git rebase [be used branch_name]
 ### 通过标签名
+
 
 
 
